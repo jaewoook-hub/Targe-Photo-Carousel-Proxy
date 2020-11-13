@@ -1,0 +1,29 @@
+{
+  "name": "turner_proxy",
+  "version": "1.0.0",
+  "description": "proxy server for Front End Capstone project",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hrr48-fec02-brucequalis/turner_proxy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hrr48-fec02-brucequalis/turner_proxy/issues"
+  },
+  "homepage": "https://github.com/hrr48-fec02-brucequalis/turner_proxy#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-http-proxy": "^1.6.2",
+    "http-proxy-middleware": "^1.0.5",
+    "morgan": "^1.10.0",
+    "newrelic": "^6.13.2",
+    "nodemon": "^2.0.4",
+    "path": "^0.12.7"
+  }
+}

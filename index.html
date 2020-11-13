@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TarJay App</title>
+    <link rel="stylesheet" type="text/css" href="http://localhost:3001/style.css">
+    <link rel="stylesheet" type="text/css" href="http://localhost:3004/style.css">
+  </head>
+
+  <body>
+    <div class="1-grid" style="display: flex; justify-content: center;">
+    <img src='./target-header.jpg'/>
+    </div>
+    <div class="1-grid" style="display: flex; justify-content: center;">
+      <div class="2-grid" style="display: flex; flex-direction: row;">
+        <div id='ImageCarousel'></div>
+        <div id='ProductOptions'></div>
+      </div>
+    </div>
+    <div class="1-grid" style="display: flex; justify-content: center;">
+      <div id='RecommendedProducts'></div>
+    </div>
+    <div class="1-grid" style="display: flex; justify-content: center;">
+      <div id='reviews'></div>
+    </div>
+    <!-- Image Carousel: -->
+    <script src='http://localhost:3001/bundle.js'></script>
+    <!-- Product Options: -->
+    <script src='http://localhost:3002/bundle.js'></script>
+    <!-- Recommended Items: -->
+    <script src='http://localhost:3003/main.js'></script>
+    <!-- Reviews: -->
+    <script src='http://localhost:3004/bundle.js'></script>
+  </body>
+</html>
